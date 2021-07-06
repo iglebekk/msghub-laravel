@@ -1,0 +1,26 @@
+{
+    "name": "iglebekk/msghub-laravel",
+    "description": "Laravel wrapper package for the MSGHUB API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anders Iglebekk",
+            "email": "anders@iglebekk.no"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Iglebekk\\Msghub\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Iglebekk\\Msghub\\MsghubServiceProvider"
+            ]
+        }
+    }
+}
