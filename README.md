@@ -2,5 +2,5 @@
 
 ## Laravel wrapper package for the MSGHUB API
 
-- Composer require ...
-- Set MSGHUB_ACCESS_TOKEN and MSGHUB_BASE_URI in .env
+- Run `Composer require iglebekk/msghub-laravel`
+- Edit `.env` file and add `MSGHUB_ACCESS_TOKEN`and `MSGHUB_BASE_URI`
