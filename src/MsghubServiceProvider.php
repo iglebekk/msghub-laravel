@@ -16,6 +16,12 @@ class MsghubServiceProvider extends ServiceProvider
 
     public function register()
     {
+
+        $this->mergeConfigFrom(
+            __DIR__ . '/../config/msghub.php',
+            'msghub'
+        );
+
         $this->app->singleton(Msghub::class, function () {
             return new Msghub();
         });
