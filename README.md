@@ -14,3 +14,7 @@ Access token are provied to you from an ADMIN.
 
 ## Response
 In response you'll get an Http/Guzzle response. Convert that to JSON with `->json()`. In the JSON object you'll have a `status` that will give you `success`or `error`
+
+## Log
+[NA] v1.0.0 - First created
+[30.07.21] v1.0.1 - Added config merge and changed name of ENV values.
