@@ -2,8 +2,8 @@
 
 return [
 
-    'access_token' => env('MSGHUB_ACCESS_TOKEN', ''),
+    'access_token' => env('MSGHUB_TOKEN', ''),
 
-    'base_uri' => env('MSGHUB_BASE_URI', '')
+    'base_uri' => env('MSGHUB_URI', '')
 
 ];
