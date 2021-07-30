@@ -6,7 +6,7 @@ Access token are provied to you from an ADMIN.
 
 - Run `Composer require iglebekk/msghub-laravel`.
 - Run `php artisan vendor:publish` and select MSGHUB to publish config file.
-- Edit `.env` file and add `MSGHUB_ACCESS_TOKEN`and `MSGHUB_BASE_URI`.
+- Edit `.env` file and add `MSGHUB_TOKEN`and `MSGHUB_URI`.
 
 ## Usage
 - use `Msghub::send('name of sender', phone-number)` to send a SMS with a unique code
